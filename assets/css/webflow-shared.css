@@ -6108,7 +6108,7 @@ figure {
 .faq_icon_contain {
   width: var(--_spacing---space--5);
   flex-shrink: 0;
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 .faq_btn_wrap {
@@ -6164,6 +6164,7 @@ figure {
 
 .faq_toggle_text {
   flex: 1;
+  width: 100%;
   text-align: left;
   padding-right: 10px;
 }
